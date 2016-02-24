@@ -369,4 +369,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
   </circuit>
+  <circuit name="Adder 4 bits">
+    <a name="circuit" val="Adder 4 bits"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <comp loc="(270,460)" name="Full-Adder"/>
+    <comp loc="(270,130)" name="Half-Adder"/>
+    <comp loc="(270,350)" name="Full-Adder"/>
+    <comp loc="(270,240)" name="Full-Adder"/>
+  </circuit>
 </project>
